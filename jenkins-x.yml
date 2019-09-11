@@ -24,6 +24,10 @@ pipelineConfig:
           value: warrenbailey-cb-bot
         - name: GIT_AUTHOR_EMAIL
           value: wbailey@cloudbees.com
+        - name: GIT_AUTHOR_NAME
+          value: warrenbailey-cb-bot
+        - name: GIT_AUTHOR_EMAIL
+          value: wbailey@cloudbees.com
         stages:
         - name: release
           steps:
